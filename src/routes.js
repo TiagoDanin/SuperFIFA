@@ -3,12 +3,18 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 // PAGES
 import LoginView from '~/pages/LoginView';
+import WinnersListView from '~/pages/WinnersListView';
 
 const paths = [
   {
     path: 'Login',
     title: 'LoginView',
     screen: LoginView,
+  },
+  {
+    path: 'WinnersList',
+    title: 'WinnersListView',
+    screen: WinnersListView,
   },
 ];
 

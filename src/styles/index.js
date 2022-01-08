@@ -26,7 +26,8 @@ export const ContainerBody = styled.View`
   padding-left: ${dimensions.marginHorizontal}px;
   padding-right: ${dimensions.marginHorizontal}px;
   flex: 2.5;
-  background: #fff;
+  background: #ffffff;
+  overflow: hidden;
 `;
 
 export const ScrollContainer = styled.ScrollView.attrs({
@@ -36,13 +37,12 @@ export const ScrollContainer = styled.ScrollView.attrs({
   nestedScrollEnabled: true,
   fadingEdgeLength: 30,
   contentContainerStyle: {
-    paddingBottom: Platform.OS === 'ios' ? 30 : 5,
+    paddingBottom: 30,
   },
 })`
   flex: 1;
-  padding: 1px;
   height: 100%;
-  background: white;
+  width: 100%;
 `;
 
 export const ScrollContainerHorizontal = styled.ScrollView.attrs({

@@ -20,8 +20,8 @@ import {
 } from './styles';
 
 const LoginView = () => {
-  const [email, onChangeEmail] = React.useState('foo@bar.com');
-  const [password, onChangePassword] = React.useState('secret');
+  const [email, onChangeEmail] = React.useState('');
+  const [password, onChangePassword] = React.useState('');
   const [isShowLoading, setShowLoading] = React.useState(false);
 
   const isFocused = useIsFocused();
@@ -50,7 +50,7 @@ const LoginView = () => {
         password,
       })
       .then(() => {
-        replace('Login');
+        replace('WinnersList');
       })
       .catch(error => {
         onChangePassword('');
