@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "dsznajder.es7-react-js-snippets",
+    "msjsdiag.vscode-react-native",
+    "equimper.react-native-react-redux",
+    "jundat95.react-native-snippet",
+    "rocketseat.rocketseatreactnative",
+    "lihui.vs-color-picker",
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "wayou.vscode-todo-highlight",
+    "jock.svg"
+  ],
+  "unwantedRecommendations": [
+    "hookyqr.beautify",
+    "dbaeumer.jshint"
+  ]
+}

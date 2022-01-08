@@ -1,0 +1,10 @@
+{
+  "cSpell.language": "en,pt-BR",
+  "cSpell.words": [
+    "commitlint",
+    "gradlew"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}

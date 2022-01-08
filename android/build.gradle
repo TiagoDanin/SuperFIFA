@@ -2,11 +2,15 @@
 
 buildscript {
     ext {
+        applicationId = "com.tiagodanin.mobile.app.superfifa"
         buildToolsVersion = "30.0.2"
-        minSdkVersion = 21
+        minSdkVersion = 23
         compileSdkVersion = 30
         targetSdkVersion = 30
         ndkVersion = "21.4.7075529"
+        androidXCore = "1.6.0"
+        versionName = project.hasProperty('versionName') ? versionName : "0.0.1"
+        versionCode = project.hasProperty('versionCode') ? versionCode.toInteger() : 1
     }
     repositories {
         google()
