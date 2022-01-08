@@ -4,11 +4,10 @@ import AsyncStorage from '@react-native-community/async-storage';
 import {navigate} from '~/services/NavigationService';
 
 export const configServer = {
-  baseURL: 'https://web.voxdatati.com.br:9090',
+  baseURL: 'https://frozen-peak-68797.herokuapp.com',
   timeout: 5000,
 };
 
-// axios  instance
 const axiosInstance = axios.create(configServer);
 
 axiosInstance.defaults.headers.post['Content-Type'] = 'application/json';
